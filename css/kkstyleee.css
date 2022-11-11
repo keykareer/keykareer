@@ -1,0 +1,70 @@
+
+body {
+    text-align: center;
+}
+
+h6, h3{
+    text-align: center;
+
+}
+
+
+
+tr{
+   margin: auto;
+}
+ /* BIG CIRCLE*/
+ input[value="1"], input[value="5"] { 
+    width: 4.5vw; height: 4.5vw;
+    
+ }
+ 
+ 
+ /* MEDIUM CIRCLE*/
+ input[value="2"], input[value="4"] { 
+    width: 3.5vw; height: 3.5vw;
+ }
+ 
+ 
+ /*SMOL CIRCLE*/
+ input[value="3"] { 
+    width: 3vw; height: 3vw;
+ }
+ 
+
+
+#button { 
+   background-color: #7BE0D9; /* Green */
+   border: none;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+hr{
+   width:70%;
+   margin: 0 auto;
+   color: #000;
+}
+
+input[value="1"] {
+   accent-color: #FA8072;
+}
+
+input[value="2"] {
+   accent-color: orange;
+}
+
+input[value="3"] {
+  accent-color: #FFE400;
+}
+
+input[value="4"] {
+   accent-color: #BFE519;
+}
+
+input[value="5"] {
+   accent-color: #5FB121;
+}
